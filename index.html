@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Google Homepage Clone</title>
+  </head>
+  <body>
+      <style>
+    body {
+        margin: 0;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        padding: 0;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        min-width: 1139px;
+        min-height: 100%;
+        display: block;
+        font-family: arial, sans-serf;
+        color: #222;
+    }
+    </style>
+    <div id="navbar">
+        <style>
+            #navbar {
+    font-size: 13px;
+    position: relative;
+    top: 16px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+      <div id="abst">
+          <style>
+              #abst {
+    position: absolute;
+    margin: 7px 0 0 10px;
+        margin-top: 7px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <a>About
+            <style>
+                #navbar a:nth-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+}
+#abst a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <a>Store
+            <style>
+                #navbar a:nth-child(2) {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+}
+#abst a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+      </div>
+      <div id="gmim">
+          <style>
+              #gmim {
+    display: flex;
+    flex: 1 1 auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    text-align: right;
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <a>Gmail
+            <style>
+                }
+#navbar a:nth-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+}
+#gmim {
+    text-align: right;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <a>Images
+            <style>
+                #navbar a:nth-child(2) {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+}
+#gmim {
+    text-align: right;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <span class="material-icons apps">
+          apps
+          <style>
+              .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+        overflow-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+        font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale;
+}
+.apps {
+    display: inline-block;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+    padding-right: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+#gmim {
+    text-align: right;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        </span>
+        <button id="sign-in">Sign In
+            <style>
+                #sign-in {
+    color: #fff;
+    border: 1px solid #4285f4;
+        border-top-color: rgb(66, 133, 244);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(66, 133, 244);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(66, 133, 244);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(66, 133, 244);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    font-weight: bold;
+    outline: none;
+        outline-color: currentcolor;
+        outline-style: none;
+        outline-width: medium;
+    background: #4285f4;
+        background-color: rgb(66, 133, 244);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+        padding-top: 0px;
+        padding-right: 12px;
+        padding-bottom: 0px;
+        padding-left: 12px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+#gmim {
+    text-align: right;
+}
+#navbar {
+    font-size: 13px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </button>
+      </div>
+    </div>
+    <div id="main">
+        <style>
+            #main {
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    min-width: 1139px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+      <div id="logo-container">
+          <style>
+              #logo-container {
+    margin-top: 47px;
+    height: 233px;
+    text-align: center;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        <style>
+            #logo {
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+#logo-container {
+    text-align: center;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+      </div>
+    </div>
+    <div id="search-container">
+        <style>
+            #search-container {
+    position: relative;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    padding-top: 6px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+      <div id="search-bar">
+          <style>
+              #search-bar {
+    display: flex;
+    width: 484px;
+    border: 1px solid #dfe1e5;
+        border-top-color: rgb(223, 225, 229);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(223, 225, 229);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(223, 225, 229);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(223, 225, 229);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    box-shadow: none;
+    border-radius: 24px;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <div class="input-container">
+            <style>
+                .input-container {
+    flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    display: flex;
+    padding: 5px 8px 0 16px;
+        padding-top: 5px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+    padding-left: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+          <div id="search-icon-container">
+              <style>
+                  #search-icon-container {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+              </style>
+            <span class="material-icons gray">
+              search
+              <style>
+                  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+        overflow-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+        font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale;
+}
+.gray {
+    color: #9aa0a6;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+              </style>
+            </span>
+          </div>
+          <div id="input-flex">
+              <style>
+                  #input-flex {
+    display: flex;
+    flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    flex-wrap: wrap;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+              </style>
+            <input class="input">
+            <style>
+                .input {
+    background-color: transparent;
+    border: none;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: medium;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: medium;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    outline: none;
+        outline-color: currentcolor;
+        outline-style: none;
+        outline-width: medium;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    display: flex;
+    flex: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+    font-size: 16px;
+    line-height: 34px;
+    margin-top: -5px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+          </div>
+          <div id="mic-flex">
+              <style>
+                  #mic-flex {
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+    margin-top: -5px;
+    flex-direction: row;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+              </style>
+            <img id="google-mic-logo" src="https://lh3.googleusercontent.com/GApFrvtO4XFz8oQGQZsOPvNM3pm8ZuuH-jqQA2g9ITejNmFrmiAXymI_KGiZxADXBTuA0XahwrlTwpdMKJwQjHs2SAWsqsuk_bd26tQ">
+            <style>
+                #google-mic-logo {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+          </div>
+        </div>
+      </div>
+      <div id="btn-container">
+          <style>
+              #btn-container {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+    padding-top: 18px;
+    margin: 50 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+}
+body {
+    font-family: arial, sans-serf;
+    color: rgb(34, 34, 34);
+}
+          </style>
+        <button>Google Search</button>
+        <style>
+            #btn-container button {
+    flex: 0 1 auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+        border-top-color: rgb(242, 242, 242);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(242, 242, 242);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(242, 242, 242);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(242, 242, 242);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+        margin-top: 11px;
+        margin-right: 4px;
+        margin-bottom: 11px;
+        margin-left: 4px;
+    padding: 0 16px;
+        padding-top: 0px;
+        padding-right: 16px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+        <button>I'm Feeling Lucky
+            <style>
+                #btn-container button {
+    flex: 0 1 auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+        border-top-color: rgb(242, 242, 242);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(242, 242, 242);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-color: rgb(242, 242, 242);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(242, 242, 242);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+        margin-top: 11px;
+        margin-right: 4px;
+        margin-bottom: 11px;
+        margin-left: 4px;
+    padding: 0 16px;
+        padding-top: 0px;
+        padding-right: 16px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+             
+        </button>
+      </div>
+    </div>
+    <footer>
+        <style>
+            footer {
+    background: #f2f2f2;
+        background-color: rgb(242, 242, 242);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+        border-top-color: rgb(228, 228, 228);
+        border-top-style: solid;
+        border-top-width: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: -27px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+        </style>
+      <span id="fl">
+          <style>
+              #fl {
+    margin-left: 30px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <a>Advertising
+            <style>
+                footer a {
+    display: inline-block;
+    color: #68615f;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <a>Business
+            <style>
+                footer a {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <a>How Search works
+            <style>
+                footer a {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+      </span>
+      <span id="fr">
+          <style>
+              #fr {
+    margin-right: 30px;
+    float: right;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+        <a>Privacy
+            <style>
+                footer a {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+
+            </style>
+        </a>
+        <a>Terms
+            <style>
+footer a {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+        <a>Settings
+            <style>
+footer a {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+            </style>
+        </a>
+      </span>
+      <span id="fc">
+          <style>
+              #fc {
+    margin: 200px;
+    float: center;
+}
+footer {
+    line-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+body {
+    font-family: arial, sans-serf;
+    color: #222;
+}
+          </style>
+          <a>Tommorow will be better</a>
+
+
+      </span>
+    </footer>
+  </body>
+</html>
